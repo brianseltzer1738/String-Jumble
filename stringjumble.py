@@ -26,7 +26,7 @@ handy find may you that tricks or techniques few a are There
 erehT era a wef seuqinhcet ro skcirt taht uoy yam dnif ydnah
 """
 string=input("Please enter a string of text (the bigger the better): ")
-print('You entered "'+letters+'". Now jumble it:')
+print('You entered "'+string+'". Now jumble it:')
 list1=list(string)
 list2=list1[::-1]
 print("".join(list2))
