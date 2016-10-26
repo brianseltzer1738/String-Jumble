@@ -26,14 +26,12 @@ handy find may you that tricks or techniques few a are There
 erehT era a wef seuqinhcet ro skcirt taht uoy yam dnif ydnah
 """
 string=input("Please enter a string of text (the bigger the better): ")
-print('You entered "'+string+'". Now jumble it: ')
-b=list(string)
-b.reverse()
-for x in b:
-    print(x, end="") 
-print()
-string2=string.split()
-for w in string2:
-    f=list(w)
-    f.reverse()
-    print(''.join(f), end=" ")
+print('You entered "'+letters+'". Now jumble it:')
+list1=list(string)
+list2=list1[::-1]
+print("".join(list2))
+
+list3 = string.split()
+list3.reverse()
+print(" ".join(list3))
+print(" ".join(x[::-1] for x in string.split()))
